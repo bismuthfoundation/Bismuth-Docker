@@ -6,7 +6,7 @@ cp -a /Bismuth/static.ref/. /Bismuth/static/
 
 # copy custom files to Bismuth (config_custom.txt)
 echo "Copying custom files"
-cp /custom/*.* /Bismuth
+cp /custom/*.* /Bismuth/
 
 # TODO: bootstrap with the right util if no db is there
 echo "Bootstrapping (todo)"

@@ -1,5 +1,5 @@
-APP_NAME=bismuth-node
-VERSION=a1.2
+APP_NAME=bismuth-websocket-server
+VERSION=a1.1
 DOCKER_REPO=eggdrasyl
 
 # HELP

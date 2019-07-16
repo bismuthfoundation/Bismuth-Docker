@@ -1,5 +1,3 @@
-# Bismuth-node:a1.1
-
 FROM jfloff/alpine-python:3.7-onbuild
 
 MAINTAINER dev@eggpool.net
