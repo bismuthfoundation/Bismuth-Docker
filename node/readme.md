@@ -51,8 +51,8 @@ This will allow to share the mempool with other containers, needed for walelt se
 For a host with a single IP, you just need to run with mounts and port forwarding (default=5658), like:
 `docker run -d -v /custom:/custom -v /static:/Bismuth/static -p 5658:5658 --name bistest1 eggdrasyl/bismuth-node:latest`
 
-
-For hosts with several fail over ips, you need more knownledge of docker network to do it clean.  
+> Note:
+For hosts with several fail over ips, you need more knownledge of docker networking to do it clean.  
 After configuring nat, bridges, docker networks, the command would be like  
 `docker run -d -v /custom:/custom -v /static:/Bismuth/static -p 1.2.3.4:5658:5658 --net bridge-1 --ip 192.168.10.3 --name bistest1 eggdrasyl/bismuth-node:latest`  
 **Warning**: We won't support docker network config. Only use if you know enough of docker and networking to make it work both ways (ingoing AND outgoing tcp flow)
@@ -81,7 +81,7 @@ ctrl-c to stop
 
 `docker exec bistest1 commands.py statusget`
 
-(others commands from commandS.py can be run the same way)
+(others commands from commands.py can be run the same way)
 
 ### Run an interactive shell in the container
 
@@ -97,4 +97,8 @@ Comes with a makefile:
 - make build-nc  (no cache)  
 - publish
 
-Edit makefile for version prior to publish
+Edit makefile for version prior to publish.
+
+# Help
+
+Head over to our Discord for any help: https://discord.gg/8KvA3JU
