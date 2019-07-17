@@ -27,3 +27,8 @@ Usually run by an exchange, on a private network.
 # Help
 
 Head over to our Discord for any help: https://discord.gg/8KvA3JU
+
+
+# References
+
+These images are built upon Alpine Python: https://github.com/jfloff/alpine-python
