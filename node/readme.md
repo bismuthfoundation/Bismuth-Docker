@@ -26,7 +26,7 @@ This mount point does not need any content, the container will fill it.
 ### /custom
 
 This will store extra files needed for config.  
-Here, we will suppose it's located, on the host, at /Bismuth/static.  
+Here, we will suppose it's located, on the host, at /custom.  
 Files placed here will be *copied* to /Bismuth within the container at every start, and override files that could be there.
 
 This directory is used for custom config, peers list and specific issues.
@@ -101,4 +101,5 @@ Edit makefile for version prior to publish.
 
 # Help
 
-Head over to our Discord for any help: https://discord.gg/8KvA3JU
+- Head over to our Discord for any help: https://discord.gg/8KvA3JU
+- Bismuth node repo: https://github.com/bismuthfoundation/Bismuth
