@@ -48,7 +48,7 @@ This will allow to share the mempool with other containers, needed for walelt se
 
 ## Run
 
-For a host with a single IP, you just need to run with mounts and port forwarding (default=5658), like:
+For a host with a single IP, you just need to run with mounts and port forwarding (default=5658), like:  
 `docker run -d -v /custom:/custom -v /static:/Bismuth/static -p 5658:5658 --name bistest1 eggdrasyl/bismuth-node:latest`
 
 > Note:
