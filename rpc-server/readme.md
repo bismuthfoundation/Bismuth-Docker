@@ -116,4 +116,4 @@ Edit makefile for version prior to publish.
 # Help
 
 - Head over to our Discord for any help: https://discord.gg/8KvA3JU
-- Github repo (json-rpc server) https://github.com/EggPool/BismuthRPC
+- Github repo (json-rpc server) https://github.com/BismuthFoundation/BismuthRPC
