@@ -9,7 +9,7 @@ RUN set -ex ;\
     bash \
     ca-certificates \
     curl wget ; \
-    git clone https://github.com/EggPool/BismuthRPC.git /BismuthRPC ;\
+    git clone https://github.com/bismuthfoundation/BismuthRPC.git /BismuthRPC ;\
     cd /BismuthRPC/RPCServer ; \
     rm -rf /var/cache/apk/*; \
     rm -rf ~/.cache/pip/; \
