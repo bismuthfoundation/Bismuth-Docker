@@ -16,6 +16,7 @@ RUN set -ex ;\
     cd /Bismuth ; \
     git checkout postfork; \
     pip install --upgrade --no-cache-dir coincurve; \
+    pip install --upgrade --no-cache-dir polysign; \
     rm -rf /var/cache/apk/*; \
     rm -rf ~/.cache/pip/; \
     cp -r static static.ref; \
