@@ -1,5 +1,5 @@
 APP_NAME=bismuth-json-rpc
-VERSION=a1.1
+VERSION=a1.2
 DOCKER_REPO=eggdrasyl
 
 # HELP

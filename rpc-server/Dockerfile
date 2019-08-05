@@ -8,8 +8,11 @@ RUN set -ex ;\
     apk add --update --no-cache \
     bash \
     ca-certificates \
+    libffi-dev \
     curl wget ; \
     git clone https://github.com/bismuthfoundation/BismuthRPC.git /BismuthRPC ;\
+    pip install --upgrade --no-cache-dir coincurve; \
+    pip install --upgrade --no-cache-dir polysign; \
     cd /BismuthRPC/RPCServer ; \
     rm -rf /var/cache/apk/*; \
     rm -rf ~/.cache/pip/; \
