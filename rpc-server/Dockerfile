@@ -6,7 +6,7 @@ EXPOSE 8115
 
 RUN set -ex ;\
     apk add --update --no-cache \
-    bash \
+    bash haveged\
     ca-certificates \
     libffi-dev \
     curl wget ; \

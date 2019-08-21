@@ -21,12 +21,18 @@ RUN set -ex ;\
     rm -rf ~/.cache/pip/; \
     cp -r static static.ref; \
     mkdir -p bak /custom plugins/500_hypernode; \
+    mkdir -p bak /custom plugins/035_socket_client; \
     chmod +x commands.py demo_getaddresssince.py; \
     cp config.txt bak; \
     cp peers.txt bak; \
     cp suggested_peers.txt bak; \
     cd plugins/500_hypernode; \
-    wget https://raw.githubusercontent.com/bismuthfoundation/hypernode/master/node_plugin/__init__.py; 
+    wget https://github.com/bismuthfoundation/hypernode/raw/beta99/node_plugin/__init__.py; \
+    cd ../035_socket_client; \
+    wget https://github.com/bismuthfoundation/BismuthPlugins/raw/master/plugins/035_socket_client/__init__.py; \
+    cd ../..; \
+    wget https://github.com/bismuthfoundation/hypernode/raw/beta99/node_plugin/ledger_queries.py; \
+    rm -rf polysign
     # git reset --hard 91f8504a15120ef6815d6e10cc7dee42eebaab0f ;
 
 
