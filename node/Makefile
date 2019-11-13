@@ -1,5 +1,5 @@
 APP_NAME=bismuth-node
-VERSION=a1.4
+VERSION=a1.5
 DOCKER_REPO=eggdrasyl
 
 # HELP

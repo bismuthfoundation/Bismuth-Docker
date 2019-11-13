@@ -2,7 +2,9 @@
 PySocks
 pycryptodomex
 requests
-ed25519
+# Polysign is added at build time, see Dockerfile
+#polysign>=0.1.0
+#ed25519
 base58
 #coincurve
 ipwhois

@@ -14,7 +14,7 @@ RUN set -ex ;\
     curl wget ; \
     git clone https://github.com/bismuthfoundation/Bismuth.git /Bismuth ;\
     cd /Bismuth ; \
-    git checkout postfork; \
+    git checkout master; \
     pip install --upgrade --no-cache-dir coincurve; \
     pip install --upgrade --no-cache-dir polysign; \
     rm -rf /var/cache/apk/*; \
